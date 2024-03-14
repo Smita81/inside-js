@@ -15,7 +15,7 @@ document.getElementById("repeat-them").addEventListener('click', () => {
 
  let newText = '';
   for (let i = 0; i < text.length; i++) {
-    for (let d = 0; d < repetationNumbers; d++) {
+    for (let j = 0; j < number; j++) {
       newText += text[i]; 
       
       }
@@ -23,6 +23,6 @@ document.getElementById("repeat-them").addEventListener('click', () => {
 
   // display the text with repeated characters
  
-  output("repeated-output", newText);
+  display("repeated-output", newText);
 
 });
