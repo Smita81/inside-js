@@ -3,8 +3,11 @@
 console.log('-- begin --');
 
 /**
- *
+ @param {string} text - the text to check
+ * @param {string} toCount - the character to count
+ * @returns {number} the number of time character exists in text
  */
+
 const countCharacter = (text, toCount) => {
   if (toCount.length !== 1) {
     return -1;
