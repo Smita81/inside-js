@@ -1,6 +1,6 @@
 'use strict';
 
-import { readNumber, readString, display } from '../../../../../lib/dom-io/index.js';
+import { readNumber, readString, displayString } from '../../../../../lib/dom-io/index.js';
 
 document.getElementById('repeat-it').addEventListener('click', () => {
   // debugger;
@@ -13,5 +13,5 @@ document.getElementById('repeat-it').addEventListener('click', () => {
   const repeatedString = text.repeat(repeatCount);
 
   // display the repeated string
-  display('repeated-output',repeatedString);
+  displayString('repeated-output',repeatedString);
 });

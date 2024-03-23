@@ -10,7 +10,7 @@
 
 
 // --- user interaction ---
-import { readNumber, readString, display } from '../../../../../lib/dom-io/index.js';
+import { readNumber, readString, displayString} from '../../../../../lib/dom-io/index.js';
 
 document.getElementById('skip-them').addEventListener('click', () => {
 	debugger;
@@ -27,5 +27,5 @@ document.getElementById('skip-them').addEventListener('click', () => {
   }
 
   // display the skipped string
-  display('skipped-output', newText);
+  displayString('skipped-output', newText);
 });

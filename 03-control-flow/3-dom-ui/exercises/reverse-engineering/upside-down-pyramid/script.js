@@ -1,5 +1,5 @@
 'use strict';
-import {readString, display} from '../../../../../lib/dom-io/index.js';
+import {readString, displayString} from '../../../../../lib/dom-io/index.js';
 document.getElementById('pyramid-it').addEventListener('click', () => {
   debugger;
 
@@ -24,5 +24,5 @@ document.getElementById('pyramid-it').addEventListener('click', () => {
   }
 
   // display the pyramid
-  display('pyramid', pyramid);
+  displayString('pyramided', pyramid);
 });

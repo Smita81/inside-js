@@ -1,5 +1,5 @@
 'use strict';
-import { readString, display } from'../../../../../lib/dom-io/index.js';
+import { readString, displayString } from'../../../../../lib/dom-io/index.js';
 
 document.getElementById('reverse-it').addEventListener('click', () => {
   // debugger;
@@ -14,5 +14,5 @@ document.getElementById('reverse-it').addEventListener('click', () => {
   }
 
   // display the reversed string
-  display('reversed-output', reversedText);
+  displayString('reversed-output', reversedText);
 });
